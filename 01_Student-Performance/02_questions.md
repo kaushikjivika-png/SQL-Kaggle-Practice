@@ -31,3 +31,21 @@ Q13- Display bottom 5 students based on g3.
 Q14- Count male and female students.
 
 Q15- Find distinct schools.
+
+## WHERE CLAUSE
+
+Q16- Find female students.
+
+Q17- Find male students.
+
+Q18- Find students older than 17.
+
+Q19- Find students with failures > 0.
+
+Q20- Find students with studytime = 4.
+
+Q21- Find students with traveltime = 1.
+
+Q22- Find students with internet access.
+
+Q23- Find students receiving school support.
