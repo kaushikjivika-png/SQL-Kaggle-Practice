@@ -49,3 +49,16 @@ Q21- Find students with traveltime = 1.
 Q22- Find students with internet access.
 
 Q23- Find students receiving school support.
+
+## Order By
+
+Q24- Display students ordered by age ascending.
+
+Q25- Display students ordered by age descending.
+
+Q26- Display students ordered by failures descending.
+
+Q27- Sort by studytime descending.
+
+Q28- Sort by school then age.
+
