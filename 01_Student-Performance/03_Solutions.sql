@@ -90,3 +90,23 @@ WHERE internet = 'yes';
 Q23--
 SELECT * FROM student
 WHERE schoolsup = 'yes';
+
+Q24--
+SELECT * FROM student
+ORDER BY age;
+
+Q25--
+SELECT * FROM student
+ORDER BY age DESC;
+
+Q26--
+SELECT * FROM student
+ORDER BY failures DESC;
+
+Q27--
+SELECT * FROM student
+ORDER BY studytime DESC;
+
+Q28--
+SELECT * FROM student
+ORDER BY school,age;
