@@ -62,3 +62,15 @@ Q27- Sort by studytime descending.
 
 Q28- Sort by school then age.
 
+## DISTINCT
+
+Q29-- Show unique address values.
+
+Q30-- Show unique guardian values.
+
+Q31-- Show unique Mjob values.
+
+Q32-- Show unique Fjob values.
+
+Q33-- Show unique reasons.
+
