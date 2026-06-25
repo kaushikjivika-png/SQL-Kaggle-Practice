@@ -110,3 +110,23 @@ ORDER BY studytime DESC;
 Q28--
 SELECT * FROM student
 ORDER BY school,age;
+
+Q29--
+SELECT DISTINCT(address)
+FROM student;
+
+Q30--
+SELECT DISTINCT(guardian)
+FROM student;
+
+Q31--
+SELECT DISTINCT(mjob)
+FROM student;
+
+Q32--
+SELECT DISTINCT(fjob)
+FROM student;
+
+Q33--
+SELECT DISTINCT(reason)
+FROM student;
