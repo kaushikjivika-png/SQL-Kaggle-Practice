@@ -130,3 +130,24 @@ FROM student;
 Q33--
 SELECT DISTINCT(reason)
 FROM student;
+
+Q34--
+SELECT * FROM student
+WHERE age = 15 AND sex = "F";
+
+Q35--
+SELECT * FROM student
+WHERE age = 16 AND school = "GP";
+
+Q36--
+SELECT * FROM student
+WHERE failures = 0;
+
+Q37--
+SELECT * FROM student
+WHERE failures > 2;
+
+Q38--
+SELECT * FROM student
+WHERE studytime >= 30;
+
