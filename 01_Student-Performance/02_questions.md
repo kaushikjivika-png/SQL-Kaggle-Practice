@@ -72,5 +72,17 @@ Q31-- Show unique Mjob values.
 
 Q32-- Show unique Fjob values.
 
+## CONDITIONS
+
+Q33-- Students with age = 15 and sex = 'F'.
+
+Q34-- Students with age = 16 and school = 'GP'.
+
+Q35-- Students with failures = 0.
+
+Q36-- Students with failures > 2.
+
+Q37-- Students with studytime >= 3.
+
 Q33-- Show unique reasons.
 
