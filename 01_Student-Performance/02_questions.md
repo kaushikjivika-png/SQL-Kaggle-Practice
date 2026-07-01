@@ -86,3 +86,15 @@ Q37-- Students with studytime >= 3.
 
 Q33-- Show unique reasons.
 
+## LIMIT
+
+Q34-- Show first 10 rows.
+
+Q35-- Show first 20 rows.
+
+Q36-- Show oldest 5 students.
+
+Q37-- Show youngest 5 students.
+
+Q38-- Show top 10 students with highest studytime.
+
