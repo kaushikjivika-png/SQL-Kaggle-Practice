@@ -84,17 +84,17 @@ Q36-- Students with failures > 2.
 
 Q37-- Students with studytime >= 3.
 
-Q33-- Show unique reasons.
+Q38-- Show unique reasons.
 
 ## LIMIT
 
-Q34-- Show first 10 rows.
+Q39-- Show first 10 rows.
 
-Q35-- Show first 20 rows.
+Q40-- Show first 20 rows.
 
-Q36-- Show oldest 5 students.
+Q41-- Show oldest 5 students.
 
-Q37-- Show youngest 5 students.
+Q42-- Show youngest 5 students.
 
-Q38-- Show top 10 students with highest studytime.
+Q43-- Show top 10 students with highest studytime.
 
