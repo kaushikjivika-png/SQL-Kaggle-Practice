@@ -151,3 +151,24 @@ Q38--
 SELECT * FROM student
 WHERE studytime >= 30;
 
+Q39--
+SELECT * FROM student
+LIMIT 10;
+
+Q40--
+SELECT * FROM student
+LIMIT 20;
+
+Q41--
+SELECT * FROM student
+ORDER BY school
+LIMIT 5;
+
+Q42--
+SELECT * FROM student
+ORDER BY school DESC
+LIMIT 5;
+
+SELECT * FROM student
+ORDER BY studytime DESC
+LIMIT 10;
