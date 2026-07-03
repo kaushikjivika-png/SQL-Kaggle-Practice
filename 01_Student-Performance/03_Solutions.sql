@@ -169,6 +169,43 @@ SELECT * FROM student
 ORDER BY school DESC
 LIMIT 5;
 
+Q43--
 SELECT * FROM student
 ORDER BY studytime DESC
 LIMIT 10;
+
+Q44--
+SELECT * FROM student
+WHERE guardian = 'Mother';
+
+Q45--
+SELECT * FROM student
+WHERE guardian = 'Father';
+
+Q46--
+SELECT * FROM student
+WHERE reason = 'course';
+
+Q47--
+SELECT * FROM student
+WHERE reason = 'reputation';
+
+Q48--
+SELECT *
+FROM student_performance
+WHERE paid = 'no';
+
+Q49--
+SELECT *
+FROM student_performance
+WHERE activities = 'yes';
+
+Q50--
+SELECT *
+FROM student_performance
+WHERE activities = 'no';
+
+Q51--
+SELECT *
+FROM student_performance
+WHERE higher = 'yes';
