@@ -98,3 +98,24 @@ Q42-- Show youngest 5 students.
 
 Q43-- Show top 10 students with highest studytime.
 
+## PRACTICAL
+
+Q44-- Students whose guardian is mother.
+
+Q45-- Students whose guardian is father.
+
+Q46-- Students whose reason is course.
+
+Q47-- Students whose reason is reputation.
+
+Q48-- Students with paid classes.
+
+Q49-- Students without paid classes.
+
+Q50-- Students involved in activities.
+
+Q51-- Students not involved in activities.
+
+Q52-- Students who want higher education.
+
+Q53-- Students who do not want higher education.
