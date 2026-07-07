@@ -108,38 +108,34 @@ Q46-- Students whose reason is course.
 
 Q47-- Students whose reason is reputation.
 
-Q48-- Students with paid classes.
+Q48-- Students without paid classes.
 
-Q49-- Students without paid classes.
+Q49-- Students not involved in activities.
 
-Q50-- Students involved in activities.
+Q50-- Students who want higher education.
 
-Q51-- Students not involved in activities.
-
-Q52-- Students who want higher education.
-
-Q53-- Students who do not want higher education.
+Q51-- Students who do not want higher education.
 
 ## Aggregate Functions
 
-Q54-- Total number of students.
+Q52-- Total number of students.
 
-Q55-- Total number of male students.
+Q53-- Total number of male students.
 
-Q56-- Total number of female students.
+Q54-- Total number of female students.
 
-Q57-- Total number of placed students.
+Q55-- Total number of placed students.
 
-Q58-- Total number of unplaced students.
+Q56-- Total number of unplaced students.
 
-Q59-- Count students who have internships.
+Q57-- Count students who have internships.
 
-Q60-- Count students who do not have internships.
+Q58-- Count students who do not have internships.
 
-Q61-- Find the highest CGPA.
+Q59-- Find the highest CGPA.
 
-Q62-- Find the lowest CGPA.
+Q60-- Find the lowest CGPA.
 
-Q63-- Find the average CGPA.
+Q61-- Find the average CGPA.
 
-Q64-- Find the highest salary.
+Q62-- Find the highest salary.
