@@ -209,3 +209,53 @@ Q51--
 SELECT *
 FROM student_performance
 WHERE higher = 'yes';
+
+Q52--
+SELECT COUNT(*)
+FROM student_performance;
+
+Q53--
+SELECT COUNT(*)
+FROM student_performance
+WHERE gender = 'Male';
+
+Q54--
+SELECT COUNT(*)
+FROM student_performance
+WHERE gender = 'Female';
+
+Q55--
+SELECT COUNT(*)
+FROM student_performance
+WHERE status = 'Placed';
+
+Q56--
+SELECT COUNT(*)
+FROM student_performance
+WHERE status = 'Not Placed';
+
+Q57--
+SELECT COUNT(*)
+FROM student_performance
+WHERE internship = 'yes';
+
+Q58--
+SELECT COUNT(*)
+FROM student_performance
+WHERE internship = 'no';
+
+Q59--
+SELECT MAX(cgpa)
+FROM student_performance;
+
+Q60--
+SELECT MIN(cgpa)
+FROM student_performance;
+
+Q61--
+SELECT AVG(cgpa)
+FROM student_performance;
+
+Q62--
+SELECT MAX(salary)
+FROM student_performance;
