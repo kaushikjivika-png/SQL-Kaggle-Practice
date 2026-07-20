@@ -259,3 +259,44 @@ FROM student_performance;
 Q62--
 SELECT MAX(salary)
 FROM student_performance;
+
+Q63--
+SELECT school, COUNT(*) AS total_students
+FROM students
+GROUP BY school;
+
+Q64--
+SELECT school, AVG(age) AS avg_age
+FROM students
+GROUP BY school;
+
+Q65--
+SELECT sex, AVG(studytime) AS avg_studytime
+FROM students
+GROUP BY sex;
+
+Q66--
+SELECT famsize, COUNT(*)
+FROM students
+GROUP BY famsize;
+
+Q67--
+SELECT school, MAX(age)
+FROM students
+GROUP BY school;
+
+Q68--
+SELECT school, MIN(age)
+FROM students
+GROUP BY school;
+
+Q69--
+SELECT school, AVG(failures)
+FROM students
+GROUP BY school;
+
+Q70--
+SELECT school, COUNT(*)
+FROM students
+WHERE internet='yes'
+GROUP BY school;
