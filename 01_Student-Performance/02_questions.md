@@ -139,3 +139,22 @@ Q60-- Find the lowest CGPA.
 Q61-- Find the average CGPA.
 
 Q62-- Find the highest salary.
+
+## Aggregate + GROUP BY
+
+Q63. Count students in each school.
+
+Q64. Average age of students in each school.
+
+Q65. Average study time by gender.
+
+Q66. Number of students in each family size.
+
+Q67. Highest age in every school.
+
+Q68. Lowest age in every school.
+
+Q69. Average failures by school.
+
+Q70. Count students having internet in each school.
+
