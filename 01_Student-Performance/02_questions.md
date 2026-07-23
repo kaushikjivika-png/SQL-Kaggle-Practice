@@ -158,3 +158,14 @@ Q69. Average failures by school.
 
 Q70. Count students having internet in each school.
 
+## GROUP BY + HAVING
+
+Q71. Schools having more than 150 students.
+
+Q72. Family sizes having average age greater than 16.
+
+Q73. Guardian groups having more than 100 students.
+
+Q74. Schools where average failures are greater than 1.
+
+
