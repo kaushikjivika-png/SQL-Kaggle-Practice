@@ -300,3 +300,27 @@ SELECT school, COUNT(*)
 FROM students
 WHERE internet='yes'
 GROUP BY school;
+
+Q71--
+SELECT school, COUNT(*) AS total_students
+FROM students
+GROUP BY school
+HAVING COUNT(*) > 150;
+
+Q72--
+SELECT famsize, AVG(age)
+FROM students
+GROUP BY famsize
+HAVING AVG(age) > 16;
+
+Q73--
+SELECT guardian, COUNT(*)
+FROM students
+GROUP BY guardian
+HAVING COUNT(*) > 100;
+
+Q74--
+SELECT school, AVG(failures)
+FROM students
+GROUP BY school
+HAVING AVG(failures) > 1;
