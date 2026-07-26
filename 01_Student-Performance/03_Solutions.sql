@@ -324,3 +324,21 @@ SELECT school, AVG(failures)
 FROM students
 GROUP BY school
 HAVING AVG(failures) > 1;
+
+Q75--
+SELECT age,
+CASE
+WHEN age<=15 THEN 'Junior'
+WHEN age BETWEEN 16 AND 17 THEN 'Middle'
+ELSE 'Senior'
+END AS age_group
+FROM students;
+
+Q76--
+SELECT studytime,
+CASE
+WHEN studytime=1 THEN 'Low'
+WHEN studytime=2 THEN 'Medium'
+ELSE 'High'
+END AS study_level
+FROM students;
