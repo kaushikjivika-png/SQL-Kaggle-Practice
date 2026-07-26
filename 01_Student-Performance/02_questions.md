@@ -168,4 +168,8 @@ Q73. Guardian groups having more than 100 students.
 
 Q74. Schools where average failures are greater than 1.
 
+## CASE WHEN
 
+Q75. Categorize students by age.
+
+Q76. Study level.
