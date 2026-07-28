@@ -173,3 +173,7 @@ Q74. Schools where average failures are greater than 1.
 Q75. Categorize students by age.
 
 Q76. Study level.
+
+Q77. Failure status.
+
+
