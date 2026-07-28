@@ -342,3 +342,11 @@ WHEN studytime=2 THEN 'Medium'
 ELSE 'High'
 END AS study_level
 FROM students;
+
+Q77--
+SELECT failures,
+CASE
+WHEN failures=0 THEN 'Pass'
+ELSE 'Needs Improvement'
+END
+FROM students;
