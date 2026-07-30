@@ -350,3 +350,21 @@ WHEN failures=0 THEN 'Pass'
 ELSE 'Needs Improvement'
 END
 FROM students;
+
+Q78--
+SELECT *
+FROM students
+ORDER BY age DESC
+LIMIT 10;
+
+Q79--
+SELECT *
+FROM students
+ORDER BY studytime DESC
+LIMIT 10;
+
+Q80--
+SELECT *
+FROM students
+ORDER BY failures
+LIMIT 20;
