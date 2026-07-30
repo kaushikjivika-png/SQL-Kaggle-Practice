@@ -176,4 +176,10 @@ Q76. Study level.
 
 Q77. Failure status.
 
+## ORDER BY + LIMIT
 
+Q78. Top 10 oldest students.
+
+Q79. Top 10 students with highest study time.
+
+Q80. Students with least failures.
