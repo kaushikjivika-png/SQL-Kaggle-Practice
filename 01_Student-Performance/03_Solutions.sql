@@ -368,3 +368,35 @@ SELECT *
 FROM students
 ORDER BY failures
 LIMIT 20;
+
+Q81--
+SELECT *
+FROM students
+WHERE sex='F'
+AND internet='yes'
+AND higher='yes';
+
+Q82--
+SELECT *
+FROM students
+WHERE sex='M'
+AND studytime>2
+AND failures=0;
+
+Q83--
+SELECT *
+FROM students
+WHERE Medu>3
+AND Fedu>3;
+
+Q84--
+SELECT *
+FROM students
+WHERE address='U'
+AND internet='yes';
+
+Q85--
+SELECT *
+FROM students
+WHERE internet='no'
+AND higher='yes';
