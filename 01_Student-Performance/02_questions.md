@@ -142,44 +142,56 @@ Q62-- Find the highest salary.
 
 ## Aggregate + GROUP BY
 
-Q63. Count students in each school.
+Q63-- Count students in each school.
 
-Q64. Average age of students in each school.
+Q64-- Average age of students in each school.
 
-Q65. Average study time by gender.
+Q65-- Average study time by gender.
 
-Q66. Number of students in each family size.
+Q66-- Number of students in each family size.
 
-Q67. Highest age in every school.
+Q67-- Highest age in every school.
 
-Q68. Lowest age in every school.
+Q68-- Lowest age in every school.
 
-Q69. Average failures by school.
+Q69-- Average failures by school.
 
-Q70. Count students having internet in each school.
+Q70-- Count students having internet in each school.
 
 ## GROUP BY + HAVING
 
-Q71. Schools having more than 150 students.
+Q71-- Schools having more than 150 students.
 
-Q72. Family sizes having average age greater than 16.
+Q72-- Family sizes having average age greater than 16.
 
-Q73. Guardian groups having more than 100 students.
+Q73-- Guardian groups having more than 100 students.
 
-Q74. Schools where average failures are greater than 1.
+Q74-- Schools where average failures are greater than 1.
 
 ## CASE WHEN
 
-Q75. Categorize students by age.
+Q75-- Categorize students by age.
 
-Q76. Study level.
+Q76-- Study level.
 
-Q77. Failure status.
+Q77-- Failure status.
 
 ## ORDER BY + LIMIT
 
-Q78. Top 10 oldest students.
+Q78-- Top 10 oldest students.
 
-Q79. Top 10 students with highest study time.
+Q79-- Top 10 students with highest study time.
 
-Q80. Students with least failures.
+Q80-- Students with least failures.
+
+## Multiple Conditions
+
+Q81-- Female students who have internet and want higher education.
+
+Q82-- Male students having more than 2 study hours and zero failures.
+
+Q83-- Students whose parents both have education level above 3.
+
+Q84-- Students living in urban area with internet.
+
+Q85-- Students without internet but wanting higher education.
