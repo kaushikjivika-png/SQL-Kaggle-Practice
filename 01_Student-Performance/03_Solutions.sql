@@ -400,3 +400,35 @@ SELECT *
 FROM students
 WHERE internet='no'
 AND higher='yes';
+
+Q86--
+SELECT guardian, COUNT(*) AS total_students
+FROM students
+GROUP BY guardian
+ORDER BY total_students DESC
+LIMIT 1;
+
+Q87--
+SELECT famsize, AVG(studytime) AS avg_studytime
+FROM students
+GROUP BY famsize
+ORDER BY avg_studytime DESC
+LIMIT 1;
+
+Q88--
+SELECT school, COUNT(*) AS total_students
+FROM students
+WHERE higher = 'yes'
+GROUP BY school
+ORDER BY total_students DESC
+LIMIT 1;
+
+Q89--
+SELECT sex, AVG(failures) AS avg_failures
+FROM students
+GROUP BY sex;
+
+Q90--
+SELECT sex, AVG(freetime) AS avg_freetime
+FROM students
+GROUP BY sex;
