@@ -195,3 +195,15 @@ Q83-- Students whose parents both have education level above 3.
 Q84-- Students living in urban area with internet.
 
 Q85-- Students without internet but wanting higher education.
+
+## Mini Analysis Questions
+
+Q86-- Which guardian has the maximum number of students?
+
+Q87-- Which family size has the highest average study time?
+
+Q88-- Which school has more students wanting higher education?
+
+Q89-- Average failures of male vs female students.
+
+Q90-- Average free time of students by gender.
