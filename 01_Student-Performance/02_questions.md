@@ -207,3 +207,13 @@ Q88-- Which school has more students wanting higher education?
 Q89-- Average failures of male vs female students.
 
 Q90-- Average free time of students by gender.
+
+Q91-- Count students by romantic relationship status.
+
+Q92-- Which job category appears most among mothers?
+
+Q93-- Which job category appears most among fathers?
+
+Q94-- Average parental education by school.
+
+Q95-- Find the percentage of students having internet.
