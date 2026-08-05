@@ -432,3 +432,35 @@ Q90--
 SELECT sex, AVG(freetime) AS avg_freetime
 FROM students
 GROUP BY sex;
+
+Q91--
+SELECT romantic, COUNT(*) AS total_students
+FROM students
+GROUP BY romantic;
+
+Q92--
+SELECT Mjob, COUNT(*) AS total_mothers
+FROM students
+GROUP BY Mjob
+ORDER BY total_mothers DESC
+LIMIT 1;
+
+Q93--
+SELECT Fjob, COUNT(*) AS total_fathers
+FROM students
+GROUP BY Fjob
+ORDER BY total_fathers DESC
+LIMIT 1;
+
+Q94--
+SELECT school, AVG(Medu) AS avg_mother_education, AVG(Fedu) AS avg_father_education
+FROM students
+GROUP BY school;
+
+Q95--
+SELECT
+    ROUND(
+        COUNT(CASE WHEN internet = 'yes' THEN 1 END) * 100.0 / COUNT(*),
+        2
+    ) AS internet_percentage
+FROM students;
