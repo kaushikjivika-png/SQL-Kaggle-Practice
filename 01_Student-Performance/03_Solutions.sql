@@ -1,3 +1,5 @@
+## Basic Queries Solutions
+    
 Q1--
 SELECT COUNT(*)
 FROM student;
